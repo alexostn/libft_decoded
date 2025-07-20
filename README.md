@@ -15,7 +15,7 @@ Here are some of the concepts from the `libft` library, deconstructed and reinte
 
 ### Concept: System library compiler
 <img src="illustrations/libft_compiler.jpg" alt="Описание изображения" width="400"/>
-<img src="illustrations/libft_compiler_700.jpg" alt="Описание изображения" width="400"/>
+<img src="illustrations/libft_compiler_600.jpg" alt="Описание изображения" width="400"/>
 <img src="illustrations/libft_compiler_800.jpg" alt="Описание изображения" width="400"/>
 <img src="illustrations/libft_compiler_700.jpg" alt="Описание изображения" width="400"/>
 ![A symbolist metaphor for the Compiler](illustrations/libft_compiler.jpg)
