@@ -13,7 +13,7 @@ Here are some of the concepts from the `libft` library, deconstructed and reinte
 
 ---
 
-### A Metaphor for the Compiler
+### Concept: System library compiler
 
 
 
