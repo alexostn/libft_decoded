@@ -1,8 +1,6 @@
 # libft_decoded
 Visual Metaphors for Code, Part 1: Libft. An artistic exploration of C programming fundamentals.
 
-![A symbolist metaphor for the Compiler](illustrations/libft_compiler.jpg)
-
 This project is the first part of my "Visual Metaphors for Code" series. 
 It centers on Libft, the foundational École 42 project that challenges students to recreate standard C library functions from scratch. 
 This project isn't just an implementation of a standard library—it's a visual investigation into its core concepts. My objective is to push beyond writing code to translate abstract logic into a universal visual language. Here, I deconstruct basic ideas like strings, memory, and linked lists to find and reveal their inner structure and hidden elegance.
@@ -17,7 +15,7 @@ Here are some of the concepts from the `libft` library, deconstructed and reinte
 
 ### Concept: System library compiler
 
-
+![A symbolist metaphor for the Compiler](illustrations/libft_compiler.jpg)
 
 *   **The Vision:** This symbolist painting presents a metaphor for the act of programming itself, inspired by the library's functions. At the center stands a figure embodying the compiler, orchestrating streams of glowing symbols that float in cosmic space. These symbols represent library functions such as `ft_strlen`, `ft_split`, and `ft_calloc`, and their intricate interactions.
 *   **The Engine (`Makefile`):** Just as the Conductor figure orchestrates the symbols, the `Makefile` is the engine that brings this code to life. It defines the rules and recipes for compiling the library, transforming source files into a functional tool. It represents the hidden structure that governs the entire process.
