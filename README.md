@@ -11,6 +11,33 @@ This project isn't just an implementation of a standard library—it's a visual 
 
 Here are some of the concepts from the `libft` library, deconstructed and reinterpreted as visual ideas.
 
+---
+
+### A Metaphor for the Compiler
+
+
+
+*   **The Vision:** This symbolist painting presents a metaphor for the act of programming itself, inspired by the library's functions. At the center stands a figure embodying the compiler, orchestrating streams of glowing symbols that float in cosmic space. These symbols represent library functions such as `ft_strlen`, `ft_split`, and `ft_calloc`, and their intricate interactions.
+*   **The Engine (`Makefile`):** Just as the Conductor figure orchestrates the symbols, the `Makefile` is the engine that brings this code to life. It defines the rules and recipes for compiling the library, transforming source files into a functional tool. It represents the hidden structure that governs the entire process.
+
+---
+
+*   **The Engine (`Makefile`):** ... (текст, как выше).
+*   **The Code (Snippet from `Makefile`):**
+    ```
+    # The core rule that compiles source files into object files.
+    # This pattern matching rule is the heart of the Makefile's efficiency.
+    %.o: %.c libft.h
+        $(CC) $(CFLAGS) -c $< -o $@
+
+    # The final rule that links all object files into the library archive.
+    $(NAME): $(OBJS)
+        ar rcs $(NAME) $(OBJS)
+    
+    # For the full orchestration, see the complete [Makefile](link-to-your-makefile-on-github).
+    ```
+
+
 
 Licensing Information
 Code: The source code in this repository is licensed under the MIT License. You are free to use, modify, and distribute it as you see fit. See the LICENSE file for more details.
