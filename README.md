@@ -1,5 +1,6 @@
 # libft_decoded
 Visual Metaphors for Code, Part 1: Libft. An artistic exploration of C programming fundamentals.
+
 ![A symbolist metaphor for the Compiler](illustrations/libft_compiler.jpg)
 
 This project is the first part of my "Visual Metaphors for Code" series. 
