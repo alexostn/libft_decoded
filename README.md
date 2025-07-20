@@ -33,7 +33,7 @@ Here are some of the concepts from the `libft` library, deconstructed and reinte
     $(NAME): $(OBJS)
         ar rcs $(NAME) $(OBJS)
     
-    # For the full orchestration, see the complete [Makefile](https://github.com/alexostn/libft_decoded/blob/main/Makefile)
+    # For the full orchestration, see the complete <a href="https://github.com/alexostn/libft_decoded/blob/main/Makefile" target="_blank">Makefile</a>.
     **Note:** To adhere to 42's academic integrity policy and prevent plagiarism, only the Makefile is provided here, not the entire source project it belongs to.
     ```
 
