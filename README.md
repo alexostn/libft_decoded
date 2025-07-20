@@ -14,11 +14,8 @@ Here are some of the concepts from the `libft` library, deconstructed and reinte
 ---
 
 ### Concept: System library compiler
-<img src="illustrations/libft_compiler.jpg" alt="Описание изображения" width="400"/>
+
 <img src="illustrations/libft_compiler_600.jpg" alt="Описание изображения" width="400"/>
-<img src="illustrations/libft_compiler_800.jpg" alt="Описание изображения" width="400"/>
-<img src="illustrations/libft_compiler_700.jpg" alt="Описание изображения" width="400"/>
-![A symbolist metaphor for the Compiler](illustrations/libft_compiler.jpg)
 
 *   **The Vision:** This symbolist painting presents a metaphor for the act of programming itself, inspired by the library's functions. At the center stands a figure embodying the compiler, orchestrating streams of glowing symbols that float in cosmic space. These symbols represent library functions such as `ft_strlen`, `ft_split`, and `ft_calloc`, and their intricate interactions.
 *   **The Engine (`Makefile`):** Just as the Conductor figure orchestrates the symbols, the `Makefile` is the engine that brings this code to life. It defines the rules and recipes for compiling the library, transforming source files into a functional tool. It represents the hidden structure that governs the entire process.
