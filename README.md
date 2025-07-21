@@ -37,7 +37,7 @@ Here are some of the concepts from the `libft` library, deconstructed and reinte
     **Note:** To adhere to 42's academic integrity policy and prevent plagiarism, only the Makefile is provided here, not the entire source project it belongs to.
     ```
 
- # For the full orchestration, see the complete <a href="https://github.com/alexostn/libft_decoded/blob/main/Makefile" target="_blank">Makefile</a>.
+ For the full orchestration, see the complete <a href="https://github.com/alexostn/libft_decoded/blob/main/Makefile" target="_blank">Makefile</a>.
  **Note:** The full source code is available upon request.
 ---
 
