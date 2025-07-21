@@ -78,7 +78,7 @@ The soft, muted tones underscore the calm, byte-by-byte analysis. A central poin
 
 ### Concept: Navigation vs. Creation ft_split()
 
-<img src="illustrations/ft_memcmp()_600.jpg" alt="Описание изображения" width="400"/>
+<img src="illustrations/av[i]=0_vs_av=0_600.jpg" alt="Описание изображения" width="400"/>
 
 *   **The Metaphor:** After mastering pure observation, the next step is creation. This concept explores the crucial difference between navigating a data structure and fundamentally altering it.
 i = 0 is the simple act of choosing a starting point for our observation.
