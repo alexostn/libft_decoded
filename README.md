@@ -76,7 +76,8 @@ The soft, muted tones underscore the calm, byte-by-byte analysis. A central poin
     ```
 
 
-### Concept: Navigation vs. Creation ft_split()
+### Concept: av[i]=0_vs_av=0
+	Navigation vs. Creation ft_split()
 
 <img src="illustrations/av[i]=0_vs_av=0_600.jpg" alt="Описание изображения" width="400"/>
 
