@@ -38,6 +38,37 @@ Here are some of the concepts from the `libft` library, deconstructed and reinte
     ```
 
  # For the full orchestration, see the complete <a href="https://github.com/alexostn/libft_decoded/blob/main/Makefile" target="_blank">Makefile</a>.
+ **Note:** The full source code is available upon request.
+---
+
+### Concept: Memory Allocation (`ft_calloc`)
+
+![Здесь будет ваша иллюстрация для calloc](visuals/calloc_illustration.png)
+
+*   **The Metaphor:** I imagine memory allocation as a request to a celestial librarian. We ask for a specific number of clean, empty boxes (bytes),
+*   and the librarian grants us a perfectly organized, contiguous block from an infinite shelf, ensuring each box is initialized to zero.
+*   **The Code:**
+    ```
+    /*
+     * A snippet demonstrating the core logic of ft_calloc.
+     * This function allocates memory for an array of 'count' elements
+     * of 'size' bytes each and returns a pointer to the allocated memory.
+     * The memory is set to zero.
+    */
+    
+    void	*ft_calloc(size_t count, size_t size)
+    {
+	    unsigned char	*tmp;
+
+	    if (count > 0 && SIZE_MAX / count < size)
+	    	return (NULL);
+	    tmp = malloc(count * size);
+	    if (!tmp)
+	    	return (NULL);
+	    ft_memset(tmp, 0, count * size);
+	    return (tmp);
+    }
+    ```
 
 Licensing Information
 Code: The source code in this repository is licensed under the MIT License. You are free to use, modify, and distribute it as you see fit. See the LICENSE file for more details.
