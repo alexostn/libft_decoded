@@ -13,7 +13,7 @@ Here are some of the concepts from the `libft` library, deconstructed and reinte
 
 ---
 
-### Concept: System library compiler
+### Concept: System library compiler libft
 
 <img src="illustrations/libft_compiler_600.jpg" alt="Описание изображения" width="400"/>
 
@@ -42,7 +42,7 @@ Here are some of the concepts from the `libft` library, deconstructed and reinte
   *   **Note:** The full source code is available upon request.
 ---
 
-### Concept: Comparison (ft_memcmp)
+### Concept: Comparison ft_memcmp()
 
 <img src="illustrations/ft_memcmp()_600.jpg" alt="Описание изображения" width="400"/>
 
