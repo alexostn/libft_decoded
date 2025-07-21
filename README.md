@@ -42,7 +42,7 @@ Here are some of the concepts from the `libft` library, deconstructed and reinte
   *   **Note:** The full source code is available upon request.
 ---
 
-### Concept: Comparison ft_memcmp()
+### Concept: Memory Comparison ft_memcmp()
 
 <img src="illustrations/ft_memcmp()_600.jpg" alt="Memory Compare ft_memcmp()" width="400"/>
 
