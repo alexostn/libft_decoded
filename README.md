@@ -87,7 +87,7 @@ The soft, muted tones underscore the calm, byte-by-byte analysis. A central poin
 i = 0 is the simple act of choosing a starting point for our observation.
 av[i] = 0, however, is a creative act of definition: we place a boundary, a terminator, declaring that the structure now ends here. This leap in understanding, first encountered in ft_split, is the key to mastering command-line arguments and process control in later projects like pipex and minishell.
 
-  This duality is perfectly captured within the architecture of ft_split.  
+*   This duality is perfectly captured within the architecture of ft_split.  
 We first navigate the array to fill it with content "i = 0",
 and then we terminate it to give it a definitive structure,
 making it usable by other parts of a system.
