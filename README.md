@@ -75,6 +75,65 @@ The soft, muted tones underscore the calm, byte-by-byte analysis. A central poin
 
     ```
 
+
+### Concept: Navigation vs. Creation ft_split()
+
+<img src="illustrations/ft_memcmp()_600.jpg" alt="Описание изображения" width="400"/>
+
+*   **The Metaphor:** After mastering pure observation, the next step is creation. This concept explores the crucial difference between navigating a data structure and fundamentally altering it.
+i = 0 is the simple act of choosing a starting point for our observation.
+av[i] = 0, however, is a creative act of definition: we place a boundary, a terminator, declaring that the structure now ends here. This leap in understanding, first encountered in ft_split, is the key to mastering command-line arguments and process control in later projects like pipex and minishell.
+
+  This duality is perfectly captured within the architecture of ft_split.  
+We first navigate the array to fill it with content "i = 0",
+and then we terminate it to give it a definitive structure,
+making it usable by other parts of a system.
+The Act of Creation (Termination): Here, we are not iterating.
+We are placing a NULL sentinel to define the boundary of our newly created array of strings.
+This is the av[i] = 0 moment, where we give our data structure its final form.
+
+
+    ```
+
+    
+	/*
+	 * This function allocates memory for the array and then places a NULL
+	 * at the end, effectively "sealing" it.
+	*/
+	char    **ft_split(char const *s, char c)
+	{
+	    char    **token_v;
+	    size_t  words_count;
+	
+	    // ... (memory allocation logic)
+	    token_v[words_count] = NULL; // The act of termination
+	    // ...
+	    return (token_v);
+	}
+
+    ```
+* The Act of Navigation (Iteration): In contrast, the word_index variable within our helper function is a pure navigator. It starts at 0 and simply increments, pointing to the next available slot to be filled. This is the i = 0 moment — a simple change of focus, not a change of structure.
+
+    ```
+	/*
+	 * This helper function uses an index to iterate through the allocated
+	 * array and fill it with content.
+	*/
+	static int  ft_cpy_words(char **token_v, char const *s, char del)
+	{
+	    int     word_index;
+	
+	    word_index = 0; // The act of navigation: start at the beginning
+	    while (*s)
+	    {
+	        // ... (logic for copying words)
+	        ++word_index; // Move to the next position
+	    }
+	    return (0);
+	}
+    ```
+
+
 Licensing Information
 Code: The source code in this repository is licensed under the MIT License. You are free to use, modify, and distribute it as you see fit. See the LICENSE file for more details.
 
