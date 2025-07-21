@@ -47,7 +47,7 @@ Here are some of the concepts from the `libft` library, deconstructed and reinte
 <img src="illustrations/ft_memcmp()_600.jpg" alt="Описание изображения" width="400"/>
 
 *   **The Metaphor:** This painting portrays the methodical process of ft_memcmp as a mystical observation. Two nearly identical figures, representing memory blocks s1 and s2, are compared within a defined space bounded by the limit n. The soft, muted tones underscore the calm, byte-by-byte analysis. A central point of light symbolizes the pivotal moment the first difference is found, the loop terminates, and a value is returned. The entire scene captures the essence of pure navigation and comparison—an act of observation without alteration, which is the foundational step before learning to modify data structures.
-*   The logic is centered around a single loop that moves an index i forward as long as the bytes are identical and the boundary n is not reached. This is a perfect example of pure navigation.
+
     ```
     /*
      * The logic is centered around a single loop that moves an index i forward
