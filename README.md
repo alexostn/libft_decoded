@@ -77,9 +77,8 @@ The soft, muted tones underscore the calm, byte-by-byte analysis. A central poin
 
 
 ### Concept: av[i]=0_vs_av=0
-	Navigation vs. Creation ft_split()
+### Navigation vs. Creation ft_split()
  
-<img src="illustrations/libft_compiler_600.jpg" alt="Описание изображения" width="400"/>
 <img src="illustrations/av_600.jpg" alt="Описание изображения" width="400"/>
 
 *   **The Metaphor:** After mastering pure observation, the next step is creation. This concept explores the crucial difference between navigating a data structure and fundamentally altering it.
