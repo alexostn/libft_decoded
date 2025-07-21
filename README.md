@@ -44,7 +44,7 @@ Here are some of the concepts from the `libft` library, deconstructed and reinte
 
 ### Concept: Comparison ft_memcmp()
 
-<img src="illustrations/ft_memcmp()_600.jpg" alt="Описание изображения" width="400"/>
+<img src="illustrations/ft_memcmp()_600.jpg" alt="Memory Compare ft_memcmp()" width="400"/>
 
 *   **The Metaphor:** This painting portrays the methodical process of ft_memcmp as a mystical observation. Two nearly identical figures, representing memory blocks s1 and s2, are compared within a defined space bounded by the limit n.
 The soft, muted tones underscore the calm, byte-by-byte analysis. A central point of light symbolizes the pivotal moment the first difference is found, the loop terminates, and a value is returned.
@@ -78,7 +78,8 @@ The soft, muted tones underscore the calm, byte-by-byte analysis. A central poin
 
 ### Concept: av[i]=0_vs_av=0
 	Navigation vs. Creation ft_split()
-
+ 
+<img src="illustrations/libft_compiler_600.jpg" alt="Описание изображения" width="400"/>
 <img src="illustrations/av[i]=0_vs_av=0_600.jpg" alt="Описание изображения" width="400"/>
 
 *   **The Metaphor:** After mastering pure observation, the next step is creation. This concept explores the crucial difference between navigating a data structure and fundamentally altering it.
