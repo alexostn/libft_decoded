@@ -42,33 +42,31 @@ Here are some of the concepts from the `libft` library, deconstructed and reinte
   *   **Note:** The full source code is available upon request.
 ---
 
-### Concept: Memory Allocation (`ft_calloc`)
+### Concept: Comparison (ft_memcmp)
 
 ![Здесь будет ваша иллюстрация для calloc](visuals/calloc_illustration.png)
 
-*   **The Metaphor:** I imagine memory allocation as a request to a celestial librarian. We ask for a specific number of clean, empty boxes (bytes),
-*   and the librarian grants us a perfectly organized, contiguous block from an infinite shelf, ensuring each box is initialized to zero.
-*   **The Code:**
+*   **The Metaphor:** This painting portrays the methodical process of ft_memcmp as a mystical observation. Two nearly identical figures, representing memory blocks s1 and s2, are compared within a defined space bounded by the limit n. The soft, muted tones underscore the calm, byte-by-byte analysis. A central point of light symbolizes the pivotal moment the first difference is found, the loop terminates, and a value is returned. The entire scene captures the essence of pure navigation and comparison—an act of observation without alteration, which is the foundational step before learning to modify data structures.
+*   The logic is centered around a single loop that moves an index i forward as long as the bytes are identical and the boundary n is not reached. This is a perfect example of pure navigation.
     ```
     /*
-     * A snippet demonstrating the core logic of ft_calloc.
-     * This function allocates memory for an array of 'count' elements
-     * of 'size' bytes each and returns a pointer to the allocated memory.
-     * The memory is set to zero.
+     * The logic is centered around a single loop that moves an index i forward
+     * as long as the bytes are identical and the boundary n is not reached.
+     * This is a perfect example of pure navigation.
     */
     
-    void	*ft_calloc(size_t count, size_t size)
-    {
-	    unsigned char	*tmp;
+	int ft_memcmp(const void *s1, const void *s2, size_t n)
+	{
+  	  size_t  i;
 
-	    if (count > 0 && SIZE_MAX / count < size)
-	    	return (NULL);
-	    tmp = malloc(count * size);
-	    if (!tmp)
-	    	return (NULL);
-	    ft_memset(tmp, 0, count * size);
-	    return (tmp);
-    }
+  	  i = 0;
+  	  while ((i < n) && (((unsigned char *)s1)[i] == ((unsigned char *)s2)[i]))
+   		i++;
+   	  if (i == n)
+   		return (0);
+   	  return (*((unsigned char *)s1 + i) - *((unsigned char *)s2 + i));
+	}
+
     ```
 
 Licensing Information
