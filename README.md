@@ -86,11 +86,16 @@ The soft, muted tones underscore the calm, byte-by-byte analysis. A central poin
     * **`i = 0` (Navigation):** This is the act of turning the key in the first cube. It’s choosing a starting point, deciding which cube to look at.
     We are merely a traveler on the path.
     * **`av[i] = 0` (Creation):** This is a far more powerful act. It's like placing a final, special cube (perhaps one holding a galaxy) that declares, "The path ends here." This act of placing a `NULL` terminator transforms an abstract sequence into a defined, usable structure for other processes (`execve`) to follow.
-* **The Code:** The architecture of `ft_split` perfectly captures this duality. We first **navigate** the array to fill the "cubes" with content, then **terminate** the path to give it a definitive end.
+* **The Code:**  
     * **The Act of Creation (Termination):** This single line is not about iteration. It’s the defining act of placing the final "cube", giving our structure its usable form.
 
 
-```c
+```
+/*
+* The architecture of `ft_split` perfectly captures this duality.
+* We first **navigate** the array to fill the "cubes" with content, then **terminate** the path to give it a definitive end.
+* This is a perfect example of pure navigation.
+*/
 char    **ft_split(char const *s, char c)
 {
     // ... (memory allocation logic)
@@ -100,9 +105,12 @@ char    **ft_split(char const *s, char c)
 }
 ```
 
-    * **The Act of Navigation (Iteration):** In contrast, this index is a pure traveler. It starts at the first "cube" (`word_index = 0`) and simply moves to the next, pointing where to place the content.
-
-```c
+```
+/*
+* **The Act of Navigation (Iteration):** In contrast, this index is a pure traveler.
+*  It starts at the first "cube" (`word_index = 0`)
+* and simply moves to the next, pointing where to place the content.
+*/
 static int  ft_cpy_words(char **token_v, char const *s, char del)
 {
     int     word_index;
