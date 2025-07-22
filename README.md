@@ -78,7 +78,6 @@ The soft, muted tones underscore the calm, byte-by-byte analysis. A central poin
 
 ---
 
-### Concept: 
 ### Concept: From Observation to Creation ft_split()
  
 <img src="illustrations/av_600.jpg" alt="Описание изображения" width="400"/>
