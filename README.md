@@ -85,31 +85,13 @@ The soft, muted tones underscore the calm, byte-by-byte analysis. A central poin
 * **The Metaphor:** After mastering pure observation in `ft_memcmp`—a process of simply looking without changing—we take the next creative step. This painting illustrates that leap. The winding path of cubes is our data structure, an array of strings.
     * **`i = 0` (Navigation):** This is the act of turning the key in the first cube. It’s choosing a starting point, deciding which cube to look at.
     We are merely a traveler on the path.
-    * **`av[i] = 0` (Creation):** This is a far more powerful act. It's like placing a final, special cube (perhaps one holding a galaxy) that declares, "The path ends here." This act of placing a `NULL` terminator transforms an abstract sequence into a defined, usable structure for other processes (`execve`) to follow.
-* **The Code:**  
-    * **The Act of Creation (Termination):** This single line is not about iteration. It’s the defining act of placing the final "cube", giving our structure its usable form.
+    * **`av[i] = 0` (Creation):** This is a far more powerful act. It's like placing a final, special cube (perhaps one holding a galaxy) that declares, "The path ends here." This act of placing a `NULL` terminator transforms an abstract sequence into a defined, usable structure for other processes (`execve()`) to follow.
 
 
 ```
 /*
-* The architecture of `ft_split` perfectly captures this duality.
-* We first **navigate** the array to fill the "cubes" with content, then **terminate** the path to give it a definitive end.
-* This is a perfect example of pure navigation.
-*/
-char    **ft_split(char const *s, char c)
-{
-    // ... (memory allocation logic)
-    token_v[words_count] = NULL; // The boundary is set.
-    // ...
-    return (token_v);
-}
-```
-
-```
-/*
-* **The Act of Navigation (Iteration):** In contrast, this index is a pure traveler.
-*  It starts at the first "cube" (`word_index = 0`)
-* and simply moves to the next, pointing where to place the content.
+ * ft_cpy_words: The helper function uses an index to navigate
+ * the allocated array and fill it with content.
 */
 static int  ft_cpy_words(char **token_v, char const *s, char del)
 {
@@ -122,6 +104,22 @@ static int  ft_cpy_words(char **token_v, char const *s, char del)
         ++word_index; // Move to the next cube.
     }
     return (0);
+}
+
+```
+* av[i] = 0
+This is a far more powerful act. It's like placing a final, special cube (perhaps one holding a galaxy) that declares, "The path ends here." This act of placing a NULL terminator transforms an abstract sequence into a defined, usable structure for other processes (execve) to follow. 
+```
+/*
+ * ft_split: The main function performs the act of termination.
+ * This single line is not about iteration; it's about definition.
+*/
+char    **ft_split(char const *s, char c)
+{
+    // ... (memory allocation logic)
+    token_v[words_count] = NULL; // The boundary is set.
+    // ...
+    return (token_v);
 }
 ```
 
