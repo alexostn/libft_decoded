@@ -111,8 +111,7 @@ static int  ft_cpy_words(char **token_v, char const *s, char del)
 ```
 * av[i] = 0
 This is a far more powerful act. It's like placing a final, special cube (perhaps one holding a galaxy) that declares, "The path ends here."
-
-This act of placing a NULL terminator transforms an abstract sequence into a defined, usable structure for other processes (execve) to follow. 
+This act of placing a NULL terminator transforms an abstract sequence into a defined, usable structure for other processes (...a defined, usable structure for other processes to follow (a concept I explore visually in my minishell project).) to follow. 
 ```
 /*
  * ft_split: The main function performs the act of termination.
