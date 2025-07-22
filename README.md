@@ -40,6 +40,41 @@ Here are some of the concepts from the `libft` library, deconstructed and reinte
  *   For the full orchestration, see the complete <a href="https://github.com/alexostn/libft_decoded/blob/main/Makefile" target="_blank">Makefile</a>.
 
   *   **Note:** The full source code is available upon request.
+
+---
+
+### Concept: Pointers: Where the Thing Resides
+
+<img src="illustrations/pointers_600.jpg" alt="pointers" width="400"/>
+
+*   **The Metaphor:** This piece portrays the most fundamental concept in programming: the pointer. The hands reaching through a cosmic void represent variables, and the points of light are locations within the vast expanse of memory. The divine gesture of pointing does not touch the light itself, but rather establishes a sacred connection to it—a map to a specific star. This artwork captures the essence of a pointer: it is not the thing, but the knowledge of where the thing resides.
+*   **The Code:** In libft, this principle underlies almost every function. We don't just work with values; we constantly manipulate addresses.
+*    The ft_strchr function is a perfect example. It doesn't return the found character. It returns a pointer to the location in memory where that character was found, giving us the key to further manipulate that part of the string.
+
+    ```
+	/*
+	 * `ft_strchr` doesn't return the character itself.
+	 * It returns a pointer to its location in memory.
+	 * We return the map, not the treasure itself.
+	*/
+
+	char    *ft_strchr(const char *s, int c)
+	{
+	    while (*s)
+	    {
+	        if (*s == (char)c)
+	            return ((char *)s); // Return a pointer to the location
+	        s++;
+	    }
+	    if ((char)c == '\0')
+	        return ((char *)s);
+	    return (NULL);
+	}
+
+    ```
+
+
+---
 ---
 
 ### Concept: Memory Comparison ft_memcmp()
