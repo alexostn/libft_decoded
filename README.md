@@ -83,11 +83,12 @@ The soft, muted tones underscore the calm, byte-by-byte analysis. A central poin
 <img src="illustrations/av_600.jpg" alt="Описание изображения" width="400"/>
 
 * **The Metaphor:** After mastering pure observation in `ft_memcmp`—a process of simply looking without changing—we take the next creative step.
-
 This painting illustrates that leap. The winding path of cubes is our data structure, an array of strings.
-    * **`i = 0` (Navigation):** This is the act of turning the key in the first cube. It’s choosing a starting point, deciding which cube to look at.
+    * **`i = 0` (Navigation):** 
+    This is the act of turning the key in the first cube. It’s choosing a starting point, deciding which cube to look at.
     We are merely a traveler on the path.
-    * **`av[i] = 0` (Creation):** This is a far more powerful act. It's like placing a final, special cube (perhaps one holding a galaxy) that declares, "The path ends here." This act of placing a `NULL` terminator transforms an abstract sequence into a defined, usable structure for other processes  [`execve()`](execve_teaser.md) to follow.
+    * **`av[i] = 0` (Creation):** 
+    This is a far more powerful act. It's like placing a final, special cube (perhaps one holding a galaxy) that declares, "The path ends here." This act of placing      a `NULL` terminator transforms an abstract sequence into a defined, usable structure for other processes  [`execve()`](execve_teaser.md) to follow.
 
 
 ```
