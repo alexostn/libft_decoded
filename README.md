@@ -179,8 +179,8 @@ char    **ft_split(char const *s, char c)
 - Explore visual teasers for upcoming repositories:
    
   This project paved the way for my deep dive into process execution — see how it leads to my upcoming minishell project
-  [`minishell()`](execve_teaser.md)
-- From understanding the basics (Libft) →  to building complex multithread environment [philosophers](#):
+  [`minishell`](execve_teaser.md)
+- From understanding the basics (Libft) →  to building complex multithread environment ['philosophers'](philosophers_teaser.md):
   my next exploration awaits.
 
 Licensing Information
