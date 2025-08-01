@@ -1,4 +1,4 @@
-# spinlock_waiting_threads()
+# spinlock waiting threads
 <img src="illustrations/spinlock_waiting_thread()_600.jpg" alt="execve" width="400"/>
 ---
 
