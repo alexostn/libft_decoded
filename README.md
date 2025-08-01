@@ -176,8 +176,8 @@ char    **ft_split(char const *s, char c)
 
 ## Next Projects
 
-- Explore visual teasers for upcoming repositories:  
-  <img src="illustrations/execve_600.jpg" alt="execve" width="400"/>
+- Explore visual teasers for upcoming repositories:
+   
   This project paved the way for my deep dive into process execution — see how it leads to my upcoming minishell project
   [`minishell()`](execve_teaser.md)
 - Coming soon → [philosophers](#)
