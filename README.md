@@ -182,7 +182,6 @@ char    **ft_split(char const *s, char c)
   [`minishell()`](execve_teaser.md)
 - Coming soon → [philosophers](#)
 
-- 
 Licensing Information
 Code: The source code in this repository is licensed under the MIT License. You are free to use, modify, and distribute it as you see fit. See the LICENSE file for more details.
 
