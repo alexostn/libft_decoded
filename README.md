@@ -180,6 +180,7 @@ char    **ft_split(char const *s, char c)
    
   This project paved the way for my deep dive into process execution — see how it leads to my upcoming minishell project
   [`minishell()`](execve_teaser.md)
+  From understanding the basics (Libft) to building complex real-world multithread (philosophers): my next challenge awaits.
 - Coming soon → [philosophers](#)
 
 Licensing Information
