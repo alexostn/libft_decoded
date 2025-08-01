@@ -10,7 +10,7 @@ This project isn't just an implementation of a standard library—it's a visual 
 ### 🔗 Find me & my visual IT-gallery elsewhere
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-My_Profile-747991?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/oleksiy-ostapenko-ba747991/)  
-[![DeviantArt](https://img.shields.io/badge/DeviantArt-Portfolio-05CC47?style=flat-square&logo=deviantart&logoColor=white)](https://www.deviantart.com/oostapen)  
+[![DeviantArt](https://img.shields.io/badge/DeviantArt-Portfolio-339766?style=flat-square&logo=deviantart&logoColor=white)](https://www.deviantart.com/oostapen)  
 _(For full project source, please reach out by LinkedIn DM; code not public by École 42 rules.)_
 
 > _I'm building bridges between code and art — currently seeking a creative tech internship (Radio France/FIP welcome!). See more projects and connect: [LinkedIn](https://www.linkedin.com/in/oleksiy-ostapenko-ba3970375/)_
