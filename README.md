@@ -180,7 +180,8 @@ char    **ft_split(char const *s, char c)
    
   This project paved the way for my deep dive into process execution — see how it leads to my upcoming minishell project
   [`minishell()`](execve_teaser.md)
-- From understanding the basics (Libft) →  to building complex real-world multithread environment [philosophers quest](#): my next challenge awaits.
+- From understanding the basics (Libft) →  to building complex multithread environment [philosophers](#):
+  my next exploration awaits.
 
 Licensing Information
 Code: The source code in this repository is licensed under the MIT License. You are free to use, modify, and distribute it as you see fit. See the LICENSE file for more details.
