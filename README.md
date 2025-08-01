@@ -177,7 +177,7 @@ char    **ft_split(char const *s, char c)
 ## Next Projects
 
 - Explore visual teasers for upcoming repositories:  
-  ![Execve Teaser](images/execve_crosslink.png)
+  <img src="illustrations/execve_600.jpg" alt="execve" width="400"/>
   [`execve()`](execve_teaser.md)
 - Next step → [pipex](#) (Coming soon)
 
