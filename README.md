@@ -178,8 +178,9 @@ char    **ft_split(char const *s, char c)
 
 - Explore visual teasers for upcoming repositories:  
   <img src="illustrations/execve_600.jpg" alt="execve" width="400"/>
-  [`execve()`](execve_teaser.md)
-- Next step → [pipex](#) (Coming soon)
+  
+  [`minishell()`](execve_teaser.md)
+- Coming soon → [philosophers](#)
 
 - 
 Licensing Information
