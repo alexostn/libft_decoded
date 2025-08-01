@@ -174,7 +174,14 @@ char    **ft_split(char const *s, char c)
 }
 ```
 
+## Next Projects
 
+- Explore visual teasers for upcoming repositories:  
+  ![Execve Teaser](images/execve_crosslink.png)
+  [`execve()`](execve_teaser.md)
+- Next step → [pipex](#) (Coming soon)
+
+- 
 Licensing Information
 Code: The source code in this repository is licensed under the MIT License. You are free to use, modify, and distribute it as you see fit. See the LICENSE file for more details.
 
