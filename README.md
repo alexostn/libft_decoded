@@ -13,7 +13,10 @@ This project isn't just an implementation of a standard library—it's a visual 
 [![DeviantArt](https://img.shields.io/badge/DeviantArt-Portfolio-99ffcc?style=flat-square&logo=deviantart&logoColor=white)](https://www.deviantart.com/oostapen)  
 _(For full project source, please reach out by LinkedIn DM; code not public by École 42 rules.)_
 
-> **My Inspiration:** "As a long-time listener, I've always admired how Radio FIP builds emotional narratives with sound. It sparked my journey to do the same with code—to find a visual language for technology that connects with people on a deeper level."
+> **Mon Inspiration :** "En tant qu'auditeur de longue date, j'ai toujours admiré la manière dont FIP construit des récits émotionnels avec le son. Cela a inspiré mon propre voyage : faire de même avec le code, pour trouver un langage visuel pour la technologie qui puisse toucher les gens à un niveau plus profond."
+>
+> [![Écouter FIP](https://img.shields.io/badge/FIP-Écouter-black?style=flat-square&logo=fip&logoColor=white)](https://www.fip.fr)
+
 
 > _I'm building bridges between code and art — currently seeking a creative tech internship (Radio France/FIP welcome!). See more projects and connect: [LinkedIn](https://www.linkedin.com/in/oleksiy-ostapenko-ba3970375/)_
 
