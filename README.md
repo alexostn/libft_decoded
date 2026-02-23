@@ -11,8 +11,8 @@ This project isn't just an implementation of a standard library—it's a visual 
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/oleksiy-ostapenko-ba3970375/)  
 [![DeviantArt](https://img.shields.io/badge/DeviantArt-Portfolio-99ffcc?style=flat-square&logo=deviantart&logoColor=white)](https://www.deviantart.com/oostapen)  
-_This README contains full concept breakdowns, code snippets, and visual documentation — the learning process is open.
-(For full project source, please reach out by LinkedIn DM; code not public by École 42 rules.)_
+_This README contains full concept breakdowns, code snippets, and visual documentation — the learning process is open._
+_(For full project source, please reach out by LinkedIn DM; code not public by École 42 rules.)_
 
 > **My Inspiration:** "My Inspiration: As a long-time listener of human-curated radio, I've always admired how skilled programmers and curators build emotional narratives with sound and technology. It sparked my journey to do the same with code—to find a visual language that connects with people on a deeper level."
 >
