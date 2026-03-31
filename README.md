@@ -201,6 +201,7 @@ Visual Assets: All visual assets, including all images and illustrations found i
 ## ★ミ(o*･ω･)ﾉ Collection
 
 > Visual assets are part of an ongoing NFT collection.
+> 
 > Not for sale yet — collection in progress.
 >
 > ٩(｡•́‿•̀｡)۶  part of a larger project
