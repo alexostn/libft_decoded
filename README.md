@@ -18,7 +18,7 @@ _This README contains full concept breakdowns, code snippets, and visual documen
 > [![Listen to FIP](https://img.shields.io/badge/FIP-Listen-E00E6B?style=flat-square&logo=fip&logoColor=white)](https://www.fip.fr)
 
 <p align="center">
-  <i>I'm building bridges between code and art — currently seeking a creative tech internship in media/audio innovation.</i>
+<i>I'm building bridges between code and art — currently seeking a creative tech internship in media/audio innovation.</i>
 </p>
 
 ---
